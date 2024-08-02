@@ -37,9 +37,15 @@ body{
 #nav-list a{
 	color: #000;
 	text-align: center;
+	border-bottom: 1px solid;
+
 }
 #nav-list a span{
 	font-size: 1.5em;
+
+}
+#nav-list a:hover{
+	background-color: #2cef51;
 }
 .navbar-header button.navbar-toggle, .navbar-header .icon-bar{
 	border: 1px solid #000;
